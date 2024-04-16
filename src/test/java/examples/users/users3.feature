@@ -3,7 +3,6 @@ for help, see: https://github.com/karatelabs/karate/wiki/IDE-Support
 
 Background:
   * url 'https://jsonplaceholder.typicode.com'
-  * call read('classpath:examples/users/users2.feature')
 
 Scenario: get all users and then get the first user by id
   Given path 'users'
